@@ -3,6 +3,18 @@
 /*     background-color: #fff; */
 /* } */
 
+/* navbar */
+.navbar-dark .navbar-toggler {
+    border: 0px;
+    outline: 0px;
+}
+
+.navbar .navbar-toggler {
+    border: 0px;
+    outline: 0px;
+    box-shadow: none;
+}
+
 a {
     text-decoration: none;
 }
