@@ -9,6 +9,9 @@
   <!-- font awesome -->
   <link rel="stylesheet" href="/static/fontawesome/css/all.css">
 
+  <!-- eksternal font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
   <!-- Bootstrap CSS -->
   <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -19,64 +22,79 @@
   <link rel="stylesheet" href="/static/css/style.css">
 
 
-
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <!-- Navside -->
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container-md">
-    <a class="navbar-brand" href="#">Pandas ID</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand text-secondary" href="#">Pandas ID</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+  </div>
+  </nav>
+  <!-- navbar -->
+
+  <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title text-secondary" id="offcanvasExampleLabel">Pandas ID</h5>
+    </div>
+    <div class="offcanvas-body px-0">
+      <ul class="nav nav-pills flex-column align-items-start d-block">
         <li class="nav-item">
           
-            <a class="nav-link" aria-current="page" href="/"><i class="fas fa-home"></i> Home</a>
+          <a class="nav-link" href="/">
+            <i class="fas fa-home"></i><span class="ms-2">Beranda</span>
+          </a>
           
         </li>
         <li class="nav-item">
           
-          <a class="nav-link active" href="/blog.html"><i class="fas fa-list-alt"></i> Blog</a>
+          <a class="nav-link active">
+            <i class="fas fa-list-alt"></i><span class="ms-2">Blog</span>
+          </a>
           
         </li>
         <li class="nav-item">
           
-          <a class="nav-link" href="/about.html"><i class="fas fa-align-left"></i> Tentang Kami</a>
+          <a class="nav-link" href="/about.html">
+            <i class="fas fa-align-left"></i><span class="ms-2">Tentang Kami</span>
+          </a>
           
         </li>
         <li class="nav-item">
           
-          <a class="nav-link" href="/contact.html"><i class="fas fa-portrait"></i> Kontak</a>
+            <a class="nav-link" href="/contact.html">
+              <i class="fas fa-portrait"></i><span class="ms-2">Kontak</span>
+            </a>
           
         </li>
       </ul>
     </div>
   </div>
-  </nav>
-  <!-- End navbar -->
+  <!-- navside -->
 
   <!-- content -->
   <div class="container p-4 mt-md-5 p-md-5 mt-5 post-content bg-body">
     
-<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-    
-    <li class="breadcrumb-item active" aria-current="page">Blog</li>
-    
-  </ol>
-</nav>
-<h1 class="text-center">Artikel terbaru</h1>
-<p class="text-center">Lihat postingan terbaru dari kami</p>
-
+<!-- <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb"> -->
+<!--   <ol class="breadcrumb"> -->
+<!--     <li class="breadcrumb-item"><a href="/">Beranda</a></li> -->
+<!--      -->
+<!--     <li class="breadcrumb-item active" aria-current="page">Blog</li> -->
+<!--      -->
+<!--   </ol> -->
+<!-- </nav> -->
+<!-- <h1 class="text-center">Artikel terbaru</h1> -->
+<!-- <p class="text-center">Lihat postingan terbaru dari kami</p> -->
+<!--  -->
 <div class="row">
 
 
   <div class="col-md-6">
-    <div class="card mb-3 bg-light border shadow" style="height: 295px;">
+    <div class="card mb-3 bg-light border shadow" style="height: 290px;">
       <div class="p-2 h-75 d-inline-block">
         <img src="https://1.bp.blogspot.com/-cmg7I61n8h8/YJkKzIg2ZBI/AAAAAAAAACw/S0LpVoyscPQOs2yLV2IoTGMl3I9Q1EnpwCPcBGAYYCw/s0/coding%2Bdi%2Bandroid.png" class="card-img-top mh-100 d-inline-block rounded" alt="Belajar Ngoding Di Android">
       </div>
@@ -85,13 +103,13 @@
           <h5 class="card-title">Belajar Ngoding Di Android</h5>
         </a>
         <p class="card-text"><small class="text-muted">Pandas Id • Senin, 09-08-2021</small></p>
-        <!-- <p class="card-text lh-sm">Mari belajar ngoding di Android.Postingan ini berguna bagi Anda yang ingin belajar ngoding tapi cuma punya HP Android</p> -->
+        <!-- <p class="card-text lh-sm text-truncate">Mari belajar ngoding di Android.Postingan ini berguna bagi Anda yang ingin belajar ngoding tapi cuma punya HP Android</p> -->
       </div>
     </div>
   </div>
 
   <div class="col-md-6">
-    <div class="card mb-3 bg-light border shadow" style="height: 295px;">
+    <div class="card mb-3 bg-light border shadow" style="height: 290px;">
       <div class="p-2 h-75 d-inline-block">
         <img src="https://1.bp.blogspot.com/-1LP7Gq2cRWI/YJdr9wfX4_I/AAAAAAAAACY/49MqencNtEozI9VBQjKxsflr-DJQJtbkQCLcBGAsYHQ/s0/apa%2Bitu%2Btermux%2Bapa%2Bfungsi%2Bdan%2Bkegunaanny.png" class="card-img-top mh-100 d-inline-block rounded" alt="Fungsi Dan Kegunaan Termux">
       </div>
@@ -100,13 +118,13 @@
           <h5 class="card-title">Fungsi Dan Kegunaan Termux</h5>
         </a>
         <p class="card-text"><small class="text-muted">Pandas Id • Senin, 09-08-2021</small></p>
-        <!-- <p class="card-text lh-sm">Termux adalah aplikasi serbaguna yang bisa membantu orang-orang untuk belajar bahasa pemrograman cukup dengan HP Android</p> -->
+        <!-- <p class="card-text lh-sm text-truncate">Termux adalah aplikasi serbaguna yang bisa membantu orang-orang untuk belajar bahasa pemrograman cukup dengan HP Android</p> -->
       </div>
     </div>
   </div>
 
   <div class="col-md-6">
-    <div class="card mb-3 bg-light border shadow" style="height: 295px;">
+    <div class="card mb-3 bg-light border shadow" style="height: 290px;">
       <div class="p-2 h-75 d-inline-block">
         <img src="https://1.bp.blogspot.com/-AfzU5T-B40U/XzLEZDr9o-I/AAAAAAAAAoU/VwVrCpLXQvUpNR5Do9XLYmsBcmlfpmW8gCLcBGAsYHQ/s640/20200812_001543.jpg" class="card-img-top mh-100 d-inline-block rounded" alt="Cara Menyimpanan Video Dari Facebook Ke Galeri">
       </div>
@@ -115,7 +133,7 @@
           <h5 class="card-title">Cara Menyimpanan Video Dari Facebook Ke Galeri</h5>
         </a>
         <p class="card-text"><small class="text-muted">Pandas Id • Kamis, 08-08-2021</small></p>
-        <!-- <p class="card-text lh-sm">Belajar cara menyimpan video dari facebook ke galeri</p> -->
+        <!-- <p class="card-text lh-sm text-truncate">Belajar cara menyimpan video dari facebook ke galeri</p> -->
       </div>
     </div>
   </div>
@@ -128,7 +146,7 @@
   <!-- end content -->
 
   <!-- footer -->
-  <footer class="footer bg-dark text-center py-3">
+  <footer class="footer bg-light text-center py-3">
     <div class="container">
       <span class="text-muted">Copyright 2021 • Pandas Id</span>
     </div>

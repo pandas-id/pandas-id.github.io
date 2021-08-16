@@ -2,6 +2,15 @@
 /* .post-content { */
 /*     background-color: #fff; */
 /* } */
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../assets/fonts/Fira Sans.ttf');
+}
+
+@font-face {
+    font-family: 'Otista';
+    src: url('../assets/fonts/Otista.otf');
+}
 
 /* navbar */
 .navbar-dark .navbar-toggler {
@@ -15,16 +24,34 @@
     box-shadow: none;
 }
 
+.navbar-brand, .offcanvas-title {
+    font-family: 'Otista';
+    letter-spacing: 2px;
+}
+
+/* navside */
+.nav .nav-item .nav-link, .nav .nav-item ul li a {
+    color: #343a40;
+}
+.nav .nav-item .nav-link:hover, .nav .nav-item ul li a:hover {
+    color: #0d6efd;
+    transition: all 0.5s;
+}
+.nav .nav-item .active {
+    background-color: transparent;
+    color: #0d6efd;
+}
+
+.offcanvas-body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
 a {
     text-decoration: none;
 }
 body {
     background-color: #eee;
-}
-
-@font-face {
-    font-family: 'Fira Sans';
-    src: url('../assets/fonts/Fira Sans.ttf');
 }
 
 .post-content p {

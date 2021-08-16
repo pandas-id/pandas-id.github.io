@@ -4,7 +4,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pandas ID - About</title>
+  <title></title>
 
   <!-- font awesome -->
   <link rel="stylesheet" href="/static/fontawesome/css/all.css">
@@ -59,7 +59,26 @@
         </li>
         <li class="nav-item">
           
-          <a class="nav-link active">
+          <a class="nav-link" data-bs-toggle="collapse" href="#customize-collapse" role="button" aria-expanded="false" aria-controls="customize-collapse">
+            <i class="fas fa-home"></i><span class="ms-2">Pemrograman</span>
+          </a>
+          
+
+          <div class="collapse ms-5" id="customize-collapse">
+            <ul class="list-unstyled fw-normal pb-1 small">
+              <li><a href="" class="d-inline-flex align-items-center rounded pb-1">Python</a></li>
+              <li><a href="" class="d-inline-flex align-items-center rounded pb-1">Bash</a></li>
+              <li><a href="" class="d-inline-flex align-items-center rounded pb-1">Lua</a></li>
+              <li><a href="" class="d-inline-flex align-items-center rounded pb-1">HTML</a></li>
+              <li><a href="" class="d-inline-flex align-items-center rounded pb-1">CSS</a></li>
+              <li><a href="" class="d-inline-flex align-items-center rounded pb-1">Javascript</a></li>
+              <li><a href="" class="d-inline-flex align-items-center rounded">PHP</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/about.html">
             <i class="fas fa-align-left"></i><span class="ms-2">Tentang Kami</span>
           </a>
           
@@ -79,25 +98,7 @@
   <!-- content -->
   <div class="container p-4 mt-md-5 p-md-5 mt-5 post-content bg-body">
     
-<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Tentang Kami</li>
-  </ol>
-</nav>
-<h1><strong>Tentang Pandas ID</strong></h1>
-<hr>
-<p>Lorem magnam modi dolorem facilis?</p>
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<h2>kenapa pandas id?</h2>
-<p>Consectetur accusantium facere recusandae iste aspernatur, aut necessitatibus doloremque Quod delectus laudantium asperiores ipsum expedita? Repudiandae magnam rerum fugiat esse</p>
-<p>Adipisicing unde culpa accusantium consequatur odio odio. Ducimus distinctio officia.</p>
-<p>Sit obcaecati error velit distinctio quia ipsum. Quaerat dolor temporibus alias ex modi deleniti? Eius perspiciatis perferendis dicta sint incidunt iure. Nostrum nihil aut error placeat optio, deleniti Adipisci temporibus nam vitae facere sit voluptatibus</p>
-<p>Dolor alias doloremque soluta inventore quasi Officia aspernatur placeat rerum commodi amet, molestiae, excepturi nam dicta Dolorem mollitia officia commodi delectus sit. Illum totam veniam?</p>
-<p>Dolor temporibus officia est ipsam iusto. Ratione similique necessitatibus velit in velit Quibusdam doloremque quidem ratione possimus.</p>
-<p>Consectetur impedit cum tempora omnis in temporibus, asperiores numquam non!</p>
-<hr>
-
+    
   </div>
   <!-- end content -->
 
