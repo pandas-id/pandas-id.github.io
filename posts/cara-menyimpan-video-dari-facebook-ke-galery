@@ -15,12 +15,11 @@
   <!-- Bootstrap CSS -->
   <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- syntax highlight -->
+  <!-- prism -->
   <link rel="stylesheet" href="/static/prism/prism.css">
 
   <!-- My CSS -->
   <link rel="stylesheet" href="/static/css/style.css">
-
 
 </head>
 <body>
@@ -44,32 +43,25 @@
     <div class="offcanvas-body px-0">
       <ul class="nav nav-pills flex-column align-items-start d-block">
         <li class="nav-item">
-          
+        
           <a class="nav-link" href="/">
             <i class="fas fa-home"></i><span class="ms-2">Beranda</span>
           </a>
-          
+        
         </li>
         <li class="nav-item">
-          
-          <a class="nav-link active">
-            <i class="fas fa-list-alt"></i><span class="ms-2">Blog</span>
-          </a>
-          
-        </li>
-        <li class="nav-item">
-          
-          <a class="nav-link" href="/about.html">
+        
+          <a class="nav-link" href="/about">
             <i class="fas fa-align-left"></i><span class="ms-2">Tentang Kami</span>
           </a>
-          
+        
         </li>
         <li class="nav-item">
-          
-            <a class="nav-link" href="/contact.html">
-              <i class="fas fa-portrait"></i><span class="ms-2">Kontak</span>
-            </a>
-          
+        
+          <a class="nav-link" href="/contact">
+            <i class="fas fa-portrait"></i><span class="ms-2">Kontak</span>
+          </a>
+        
         </li>
       </ul>
     </div>
@@ -79,12 +71,6 @@
   <!-- content -->
   <div class="container p-4 mt-md-5 p-md-5 mt-5 post-content bg-body">
     
-<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Blog</li>
-  </ol>
-</nav>
 <h1><strong>Cara Menyimpanan Video Dari Facebook Ke Galeri</strong></h1>
 <hr>
 <p>Halo teman-teman semua,pada kesempatan kali ini saya akan membagikan sebuah tutorial untuk mendownload video dari Facebook lalu menyimpannya ke galeri</p>
@@ -101,18 +87,18 @@
 <p>Bahasa Pemrograman Python nantinya akan digunakan untuk menjalankan script yang tentunya dibuat juga dengan Bahasa Pemrograman Python.</p>
 <p>Langkah berikutnya adalah menginstal modul,modul yang akan di instal adalah <strong>modul requests</strong>.</p>
 <p>Sekarang semua package dan modul telah kita instal,maka yang selanjutnya akan kita lakukan adalah menginstal/mengclone script dari github.Untuk lebih jelasnya silahkan masukan perintah di bawah.</p>
-<pre><code class="language-sh">git clone https://github.com/pandas-id/fb-video-downloader
-</code></pre>
+<pre><code class="language-sh">git clone https://github.com/pandas-id/fb-video-downloader</code></pre>
 
 <p>Jika proses di atas telah selesai maka akan ada folder baru yang bernam fb-video-downloader.Untuk melihatnya silahkan masukan perintah <strong>ls</strong> lalu tekan <strong>Enter</strong>.</p>
 <pre><code class="language-sh">ls</code></pre>
 
 <p><img alt="" src="https://1.bp.blogspot.com/-xpy11flbVGo/XzK6zKlPpMI/AAAAAAAAAns/slRteWZH1cYlL3yZwD1BbDJWWIUUFIkZwCLcBGAsYHQ/s640/IMG_20200811_233459.jpg" /></p>
 <p>Masuk ke folder tersebut dengan menggunakan perintah <strong>cd</strong>.</p>
-<pre><code class="language-sh">cd fb-video-downloader</code></pre>
+<pre><code class="language-sh">cd fb-video-downloader
+</code></pre>
 
 <p>Jalankan program dengan menggunakan perintah di bawah.</p>
-<pre><code class="language-sh">python downloader.py</code></pre>
+<pre><code class="language-sh bor">python downloader.py</code></pre>
 
 <p>Silahkan cari video yang akan kalian download lalu copy urlnya dan pastekan seperti di bawah,jangan lupa juga masukan tempat di mana video akan disimpan.</p>
 <p><img alt="" src="https://1.bp.blogspot.com/-_PMay7dYqOM/XzK7RaSfVxI/AAAAAAAAAn4/Juf1D7MG9icLaj5Wnh-k9AM_86rpx7DjwCLcBGAsYHQ/s640/IMG_20200811_232121.jpg" /></p>
@@ -124,7 +110,7 @@
     <img src="/static/assets/img/penulis.jpg" alt="penulis" class="rounded-circle">
   </div>
   <div class="ms-3 mt-1">
-    <p><a href="#">Pandas Id</a>•<span>Kamis, 08-08-2021</span></p>
+    <p><a href="#">Pandas Id</a> • <span>Kamis, 08-08-2021</span></p>
   </div>
 </div>
 <hr>
@@ -135,7 +121,7 @@
   <!-- footer -->
   <footer class="footer bg-light text-center py-3">
     <div class="container">
-      <span class="text-muted">Copyright 2021 • Pandas Id</span>
+      <span class="text-muted">Copyright 2021 • <a href="">Pandas ID</a></span>
     </div>
   </footer>
   <!-- end footer -->
@@ -143,10 +129,10 @@
   <!-- Bootstrap Bundle with Popper -->
   <script src="/static/bootstrap/js/bootstrap.bundle.js"></script>
 
-  <!-- prism for syntax highlight -->
+  <!-- prism -->
   <script src="/static/prism/prism.js"></script>
 
-  <!-- My JS -->
+  <!-- script -->
   <script src="/static/js/script.js"></script>
 </body
 </html>
