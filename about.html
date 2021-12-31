@@ -7,7 +7,7 @@
   <title>Pandas ID - About</title>
 
   <!-- font awesome -->
-  <link rel="stylesheet" href="/static/fontawesome/css/all.css">
+  <!-- <link rel="stylesheet" href="/static/fontawesome/css/all.css"> -->
 
   <!-- eksternal font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -44,24 +44,24 @@
       <ul class="nav nav-pills flex-column align-items-start d-block">
         <li class="nav-item">
         
-          <a class="nav-link" href="/">
-            <i class="fas fa-home"></i><span class="ms-2">Beranda</span>
+          <a class="nav-link text-secondary" href="/">
+            <img class="bi me-2" src="/static/svg/house.svg" alt="home icon" width="16"> Beranda
           </a>
         
         </li>
         <li class="nav-item">
-        
-          <a class="nav-link active" href="/about.html">
-            <i class="fas fa-align-left"></i><span class="ms-2">Tentang Kami</span>
-          </a>
-        
-        </li>
-        <li class="nav-item">
-        
-          <a class="nav-link" href="/contact.html">
-            <i class="fas fa-portrait"></i><span class="ms-2">Kontak</span>
-          </a>
-        
+          <div class="dropdown">
+            <a class="nav-link text-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="bi me-2" src="/static/svg/book.svg" alt="tutorial icon" width="16"> Tutorial
+            </a>
+
+            <ul class="dropdown-menu ms-5" aria-labelledby="dropdownMenuLink">
+              <li><a class="link-secondary dropdown-item disabled" href="#">HTML</a></li>
+              <li><a class="link-secondary dropdown-item disabled" href="#">CSS</a></li>
+              <li><a class="link-secondary dropdown-item disabled" href="#">Javacript</a></li>
+              <li><a class="link-secondary dropdown-item disabled" href="#">Python</a></li>
+            </ul>
+          </div>
         </li>
       </ul>
     </div>
@@ -69,9 +69,9 @@
   <!-- navside -->
 
   <!-- content -->
-  <div class="container p-4 mt-md-5 p-md-5 mt-5 post-content bg-body">
+  <div class="container text-secondary p-4 mt-md-5 p-md-5 mt-5 post-content bg-body">
     
-<h1><strong>Tentang Pandas ID</strong></h1>
+<h1><strong>Tentang Blog Ini</strong></h1>
 <hr>
 <p>Blog ini adalah media bagi saya untuk berbagi ilmu dan pengetahuan,sekaligus menjadi sarana untuk medokumentasikan kegiatan belajar saya dalam hal programming.</p>
 <hr>
@@ -80,12 +80,21 @@
   <!-- end content -->
 
   <!-- footer -->
-  <footer class="footer bg-light text-center py-3">
+  <footer class="footer bg-light text-center p-3">
     <div class="container">
-      <span class="text-muted">Copyright 2021 • <a href="">Pandas ID</a></span>
+      <ul class="fw-bold list-unstyled p-0 d-flex justify-content-evenly">
+        <li><a class="link-secondary" href="https://github.com/pandas-id">GitHub</a></li>
+        <li><a class="link-secondary" href="/about.html">About</a></li>
+        <li><a class="link-secondary" href="/contact.html">Contact</a></li>
+      </ul>
+      <p class="text-secondary">Copyright 2021 • <a class="link-secondary" href="">Pandas ID</a></p>
     </div>
   </footer>
   <!-- end footer -->
+
+  <!-- eruda console -->
+  <script src="/static/js/eruda.js"></script>
+  <script>eruda.init();</script>
 
   <!-- Bootstrap Bundle with Popper -->
   <script src="/static/bootstrap/js/bootstrap.bundle.js"></script>
@@ -95,5 +104,6 @@
 
   <!-- script -->
   <script src="/static/js/script.js"></script>
-</body
+
+</body>
 </html>

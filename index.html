@@ -7,7 +7,7 @@
   <title>Pandas ID - Homepage</title>
 
   <!-- font awesome -->
-  <link rel="stylesheet" href="/static/fontawesome/css/all.css">
+  <!-- <link rel="stylesheet" href="/static/fontawesome/css/all.css"> -->
 
   <!-- eksternal font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -44,24 +44,24 @@
       <ul class="nav nav-pills flex-column align-items-start d-block">
         <li class="nav-item">
         
-          <a class="nav-link" href="/">
-            <i class="fas fa-home"></i><span class="ms-2">Beranda</span>
+          <a class="nav-link text-secondary" href="/">
+            <img class="bi me-2" src="/static/svg/house.svg" alt="home icon" width="16"> Beranda
           </a>
         
         </li>
         <li class="nav-item">
-        
-          <a class="nav-link" href="/about.html">
-            <i class="fas fa-align-left"></i><span class="ms-2">Tentang Kami</span>
-          </a>
-        
-        </li>
-        <li class="nav-item">
-        
-          <a class="nav-link" href="/contact.html">
-            <i class="fas fa-portrait"></i><span class="ms-2">Kontak</span>
-          </a>
-        
+          <div class="dropdown">
+            <a class="nav-link text-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="bi me-2" src="/static/svg/book.svg" alt="tutorial icon" width="16"> Tutorial
+            </a>
+
+            <ul class="dropdown-menu ms-5" aria-labelledby="dropdownMenuLink">
+              <li><a class="link-secondary dropdown-item disabled" href="#">HTML</a></li>
+              <li><a class="link-secondary dropdown-item disabled" href="#">CSS</a></li>
+              <li><a class="link-secondary dropdown-item disabled" href="#">Javacript</a></li>
+              <li><a class="link-secondary dropdown-item disabled" href="#">Python</a></li>
+            </ul>
+          </div>
         </li>
       </ul>
     </div>
@@ -69,58 +69,59 @@
   <!-- navside -->
 
   <!-- content -->
-  <div class="container p-4 mt-md-5 p-md-5 mt-5 post-content bg-body">
+  <div class="container text-secondary p-4 mt-md-5 p-md-5 mt-5 post-content bg-body">
     
 
 <div class="row">
-
-
-  <div class="col-md-6">
-    <div class="card mb-3 bg-light border shadow" style="height: 290px;">
-      <div class="p-2 h-75 d-inline-block">
-        <img src="https://1.bp.blogspot.com/-1LP7Gq2cRWI/YJdr9wfX4_I/AAAAAAAAACY/49MqencNtEozI9VBQjKxsflr-DJQJtbkQCLcBGAsYHQ/s0/apa%2Bitu%2Btermux%2Bapa%2Bfungsi%2Bdan%2Bkegunaanny.png" class="card-img-top mh-100 d-inline-block rounded" alt="Fungsi dan kegunaan Termux">
-      </div>
-      <div class="card-body">
-        <a href="posts/fungsi-dan-kegunaan-termux.html">
-          <h5 class="card-title">Fungsi dan kegunaan Termux</h5>
-        </a>
-        <p class="card-text"><small class="text-muted">Pandas Id • Senin, 09-08-2021</small></p>
-        <!-- <p class="card-text lh-sm"></p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6">
-    <div class="card mb-3 bg-light border shadow" style="height: 290px;">
-      <div class="p-2 h-75 d-inline-block">
-        <img src="https://1.bp.blogspot.com/-cmg7I61n8h8/YJkKzIg2ZBI/AAAAAAAAACw/S0LpVoyscPQOs2yLV2IoTGMl3I9Q1EnpwCPcBGAYYCw/s0/coding%2Bdi%2Bandroid.png" class="card-img-top mh-100 d-inline-block rounded" alt="Belajar Ngoding Di Android">
-      </div>
-      <div class="card-body">
-        <a href="posts/belajar-ngoding-di-android.html">
-          <h5 class="card-title">Belajar Ngoding Di Android</h5>
-        </a>
-        <p class="card-text"><small class="text-muted">Pandas Id • Senin, 09-08-2021</small></p>
-        <!-- <p class="card-text lh-sm"></p> -->
+  
+  <div class="col-md-6 mb-3">
+    <div class="card mb-3 p-3 bg-light border shadow h-100">
+      <img src="https://1.bp.blogspot.com/-cmg7I61n8h8/YJkKzIg2ZBI/AAAAAAAAACw/S0LpVoyscPQOs2yLV2IoTGMl3I9Q1EnpwCPcBGAYYCw/s0/coding%2Bdi%2Bandroid.png" class="card-img-top d-inline-block rounded" alt="Belajar Ngoding Di Android" style="height: 180px;">
+      <div class="card-body p-0 mt-3">
+        <!-- <p class="text-uppercase mb-1 category"><small>kategori</small></p> -->
+        <h5 class="card-title">
+          <strong>
+            <a href="blog/belajar-ngoding-di-android.html" class="link-secondary">Belajar Ngoding Di Android</a>
+          </strong>
+        </h5>
+        <!-- <p class="card-text"><small class="text-muted">Pandas Id • Senin, 09-08-2021</small></p> -->
+        <p class="card-text"><small class="text-muted">Halo sobat! Mungkin dari Kamu ada yang ingin belajar pemrograman/ngoding tapi mengalami beberapa ken...</small></p>
       </div>
     </div>
   </div>
-
-  <div class="col-md-6">
-    <div class="card mb-3 bg-light border shadow" style="height: 290px;">
-      <div class="p-2 h-75 d-inline-block">
-        <img src="https://1.bp.blogspot.com/-AfzU5T-B40U/XzLEZDr9o-I/AAAAAAAAAoU/VwVrCpLXQvUpNR5Do9XLYmsBcmlfpmW8gCLcBGAsYHQ/s640/20200812_001543.jpg" class="card-img-top mh-100 d-inline-block rounded" alt="Cara Menyimpanan Video Dari Facebook Ke Galeri">
-      </div>
-      <div class="card-body">
-        <a href="posts/cara-menyimpan-video-dari-facebook-ke-galery.html">
-          <h5 class="card-title">Cara Menyimpanan Video Dari Facebook Ke Galeri</h5>
-        </a>
-        <p class="card-text"><small class="text-muted">Pandas Id • Kamis, 08-08-2021</small></p>
-        <!-- <p class="card-text lh-sm"></p> -->
+  
+  <div class="col-md-6 mb-3">
+    <div class="card mb-3 p-3 bg-light border shadow h-100">
+      <img src="https://1.bp.blogspot.com/-1LP7Gq2cRWI/YJdr9wfX4_I/AAAAAAAAACY/49MqencNtEozI9VBQjKxsflr-DJQJtbkQCLcBGAsYHQ/s0/apa%2Bitu%2Btermux%2Bapa%2Bfungsi%2Bdan%2Bkegunaanny.png" class="card-img-top d-inline-block rounded" alt="Fungsi dan kegunaan Termux" style="height: 180px;">
+      <div class="card-body p-0 mt-3">
+        <!-- <p class="text-uppercase mb-1 category"><small>kategori</small></p> -->
+        <h5 class="card-title">
+          <strong>
+            <a href="blog/fungsi-dan-kegunaan-termux.html" class="link-secondary">Fungsi dan kegunaan Termux</a>
+          </strong>
+        </h5>
+        <!-- <p class="card-text"><small class="text-muted">Pandas Id • Senin, 09-08-2021</small></p> -->
+        <p class="card-text"><small class="text-muted">Halo sobat! Tentu dari kalian banyak yang bertanya-tanya mengenai aplikasi yang satu ini. Apa itu te...</small></p>
       </div>
     </div>
   </div>
-
-
+  
+  <div class="col-md-6 mb-3">
+    <div class="card mb-3 p-3 bg-light border shadow h-100">
+      <img src="https://1.bp.blogspot.com/-AfzU5T-B40U/XzLEZDr9o-I/AAAAAAAAAoU/VwVrCpLXQvUpNR5Do9XLYmsBcmlfpmW8gCLcBGAsYHQ/s640/20200812_001543.jpg" class="card-img-top d-inline-block rounded" alt="Cara Menyimpanan Video Dari Facebook Ke Galeri" style="height: 180px;">
+      <div class="card-body p-0 mt-3">
+        <!-- <p class="text-uppercase mb-1 category"><small>kategori</small></p> -->
+        <h5 class="card-title">
+          <strong>
+            <a href="blog/cara-menyimpan-video-dari-facebook-ke-galery.html" class="link-secondary">Cara Menyimpanan Video Dari Facebook Ke Galeri</a>
+          </strong>
+        </h5>
+        <!-- <p class="card-text"><small class="text-muted">Pandas Id • Kamis, 08-08-2021</small></p> -->
+        <p class="card-text"><small class="text-muted">Halo teman-teman semua,pada kesempatan kali ini saya akan membagikan sebuah tutorial untuk mendownlo...</small></p>
+      </div>
+    </div>
+  </div>
+  
 </div>
 
 
@@ -128,12 +129,21 @@
   <!-- end content -->
 
   <!-- footer -->
-  <footer class="footer bg-light text-center py-3">
+  <footer class="footer bg-light text-center p-3">
     <div class="container">
-      <span class="text-muted">Copyright 2021 • <a href="">Pandas ID</a></span>
+      <ul class="fw-bold list-unstyled p-0 d-flex justify-content-evenly">
+        <li><a class="link-secondary" href="https://github.com/pandas-id">GitHub</a></li>
+        <li><a class="link-secondary" href="/about.html">About</a></li>
+        <li><a class="link-secondary" href="/contact.html">Contact</a></li>
+      </ul>
+      <p class="text-secondary">Copyright 2021 • <a class="link-secondary" href="">Pandas ID</a></p>
     </div>
   </footer>
   <!-- end footer -->
+
+  <!-- eruda console -->
+  <script src="/static/js/eruda.js"></script>
+  <script>eruda.init();</script>
 
   <!-- Bootstrap Bundle with Popper -->
   <script src="/static/bootstrap/js/bootstrap.bundle.js"></script>
@@ -143,5 +153,6 @@
 
   <!-- script -->
   <script src="/static/js/script.js"></script>
-</body
+
+</body>
 </html>
